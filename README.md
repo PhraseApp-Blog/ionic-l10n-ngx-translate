@@ -1,0 +1,1 @@
+# ionic-l10n-ngx-translate

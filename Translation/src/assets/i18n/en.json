@@ -1,0 +1,7 @@
+{
+    "tab1": {
+      "tabName": "Tab One goes here",
+      "invite": "Now you have selected {{lang}}",
+      "languageChangePlaceholder": "Change language"
+    }
+  }

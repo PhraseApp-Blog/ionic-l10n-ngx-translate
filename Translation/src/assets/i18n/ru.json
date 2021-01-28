@@ -1,0 +1,8 @@
+{
+    "tab1": {
+      "tabName": "Первая закладка",
+      "invite": "Сейчас вы выбрали {{lang}}",
+      "languageChangePlaceholder": "Выберите язык"
+    },
+    "Language": "Язык"
+  }

@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      {{ 'tab1.tabName' | translate }}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Get Started</ion-card-subtitle>
+      <ion-card-title>Welcome to Ionic</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p translate [translateParams]="{ lang: language }">tab1.invite</p>
+      <ion-item>
+        <ion-label translate>Language</ion-label>
+        <ion-select [(ngModel)]='language' (ionChange)='languageChange()'
+          [placeholder]='"tab1.languageChangePlaceholder" | translate'>
+          <ion-select-option value='ru'>Russian</ion-select-option>
+          <ion-select-option value='en'>English</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
